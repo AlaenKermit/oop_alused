@@ -1,11 +1,19 @@
 from random import randint
+
 class Sõdur():
     tervis = 100
-    kord = 0
 
-    def võitlus(inimene):
-        if inimene.tervis >= 1:
-            inimene.kord = randint(0,1)
-            if inimene.kord == 1:
-                inimene.tervis = inimene.tervis - 20
-                print(inimene.tervis)
+
+def võitlus(inimene1, inimene2):
+    while inimene1.tervis > 0 and inimene2.tervis > 0:
+        ründaja = randint(1, 2)
+        if ründaja == 1:
+            inimene1.tervis -= 20
+            print("Esimene sõdur lõi")
+            if inimene2.tervis == 0:
+                print("Esimene sõdur Võitis!!!")
+        elif ründaja == 2:
+            inimene2.tervis -= 20
+            print("Teine sõdur lõi")
+            if inimene1.tervis == 0:
+                print("Teine sõdur Võitis!!!")
