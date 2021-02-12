@@ -1,3 +1,5 @@
-# oop_alused
-Object Oriented Programming 
-Objektorienteeritud programmeerimine
+#####Allan Kerme
+###ENG
+# object oriented programming
+###EST
+# objektorienteeritud programmeerimine
