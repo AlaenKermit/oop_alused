@@ -12,9 +12,9 @@ class Inimene:
 
     def __del__(self):
         if self.kutsekvalifikatsioon == min(miinimumlist):
-            print(str(self.eesnimi) + " " + str(self.perenimi) + " ADIOS AMIGO!")
+            print(str(self.eesnimi) + " " + str(self.perenimi) + " ADIOS AMIGO! Ei ole piisavalt pädev kutsekvalifikatsioon!")
         else:
-            print("Jeeee")
+            print("Liigume edasi")
 
     def tutvustus(self):
         print("Tere! Olen " + self.eesnimi + " " + self.perenimi)
