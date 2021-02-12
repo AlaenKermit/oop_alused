@@ -1,3 +1,5 @@
+import self as self
+
 from Sõdurfail import *
 
 Sõdur1 = Sõdur
