@@ -1,8 +1,6 @@
-import self as self
-
 from Sõdurfail import *
 
-Sõdur1 = Sõdur
-Sõdur2 = Sõdur
+Sodur1 = Soodur()
+Sodur2 = Soodur()
 
-Sõdur1.võitlus(Sõdur2)
+Sodur1.voitlus(Sodur2)
