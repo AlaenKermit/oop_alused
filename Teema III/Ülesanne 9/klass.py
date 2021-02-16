@@ -3,6 +3,7 @@ class Restoran():
         self.restorani_nimi = restorani_nimi
         self.soogi_tyyp = soogi_tyyp
         self.teenindatud_kylastajad = 0
+
     def restorani_kirjeldus(self):
         print("Restoran " + str(self.restorani_nimi) + " söögi tüüp " + str(self.soogi_tyyp))
 
@@ -11,9 +12,11 @@ class Restoran():
 
     def määra_teenindatud_kylalised(self, x):
         self.teenindatud_kylastajad = x
-        print("Määratud et hetkel on teenindatud", x ,"külalist restoranis " + str(self.restorani_nimi))
+        print("Määratud et hetkel on teenindatud", x, "külalist restoranis " + str(self.restorani_nimi))
 
     def suurenda_teenindatud_kylalised(self, x):
         self.teenindatud_kylastajad += x
-        print("Restoranis " + str(self.restorani_nimi) + " on hetkel teenindatud külastajate arvu suurendatud", x, "võrra")
-        print("Kokku on teenindatud " + str(self.teenindatud_kylastajad) + " külastajat restoranis " + str(self.restorani_nimi))
+        print("Restoranis " + str(self.restorani_nimi) + " on hetkel teenindatud külastajate arvu suurendatud", x,
+              "võrra")
+        print("Kokku on teenindatud " + str(self.teenindatud_kylastajad) + " külastajat restoranis " + str(
+            self.restorani_nimi))
