@@ -1,8 +1,9 @@
 from klass import *
+
 # loome 3 eksemplaari ja kasutame neid
-restoran1 = Restoran("BabyBack Ribs","Pizza 20€")
-restoran2 = Restoran("Timmu saiad","Juustumaitseline Baguette")
-restoran3 = Restoran("Burgerikuningas","Jalasalat")
+restoran1 = Restoran("BabyBack Ribs", "Pizza 20€")
+restoran2 = Restoran("Timmu saiad", "Juustumaitseline Baguette")
+restoran3 = Restoran("Burgerikuningas", "Jalasalat")
 
 # kutsume eksemplaari meetodid tööle
 restoran1.restorani_kirjeldus()
