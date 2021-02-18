@@ -2,7 +2,8 @@ from yl12klass import *
 
 
 class JäätiseKiosk(Restoran):
-    jäätisevalik = ["Vanilje","Maasikas","Õun","Pirn","BurgeriKuningaJalaSalat"]
+    kounter = 0
+    jäätisevalik = ["1. Vanilje","2. Maasikas","3. Õun","4. Pirn","5. BurgeriKuningaJalaSalat"]
     def __init__(self, x, y):
         super().__init__(x, y)
 
