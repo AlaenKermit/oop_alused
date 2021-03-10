@@ -1,5 +1,7 @@
 class Kasutaja():
+    """Kasutaja kirjeldav klass"""
     def __init__(self, eesnimi, perenimi, kasutajanimi, parool):
+        """Kasutaja loomisel kasutatav konstruktor"""
         self.eesnimi = eesnimi
         self.perenimi = perenimi
         self.kasutajanimi = kasutajanimi
@@ -15,6 +17,7 @@ class Kasutaja():
     def get_privileeg(self):
         return self._privileeg
     def kirjelda_kasutajat(self, domeen):
+        """Kasutaja kirjeldus"""
         print("Inimese nimi on " + str(self.eesnimi) + " " + str(self.perenimi) + " tema asukoht on " + domeen)
 
 class Admin(Kasutaja):

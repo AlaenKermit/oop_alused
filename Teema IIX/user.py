@@ -1,4 +1,5 @@
 class Kasutaja():
+    """Kasutaja kirjeldav klass"""
     def __init__(self, eesnimi, perenimi, kasutajanimi, parool):
         self.eesnimi = eesnimi
         self.perenimi = perenimi
