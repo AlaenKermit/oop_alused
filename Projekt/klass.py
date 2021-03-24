@@ -23,7 +23,7 @@ class elektroonika(): # Klass
         if sisend == "J":
             if self.töötab == 0:
                 self.töötab = 1
-            elif self.töötab == 0:
-                self.töötab = 1
+            elif self.töötab == 1:
+                self.töötab = 0
         else:
             print("Te kas ei soovinud seade olekut muuta või sisestaasite vale sisendi!")
