@@ -36,22 +36,21 @@ def add_student(): # see on varajasem versioon mis töötab, aga on vale.
     classroom.append(opilane)
     show_classroom()
 
-''' selle peab korda saama, kuna ma pean õpilase tegema ju Opilane klassi objektiks
+# selle peab korda saama, kuna ma pean õpilase tegema ju Opilane klassi objektiks
 def add_student():
-    opilane = str(input("Sisesta õpilase nimi keda lisada klassi: "))
-    print(opilane)
-    opilane = Opilane(opilane)
+    opilase_nimi = str(input("Sisesta õpilase nimi keda lisada klassi: "))
+    opilane = Opilane(opilase_nimi) # see siin tekitab probleeme???
     print(opilane)
     classroom.append(opilane)
     show_classroom()
-'''
+
 
 def show_classroom():
     print("Klassi on lisatud hetkel järgnevad õpilased:")
     counter = 0
     for i in classroom:
         counter += 1
-        print(counter, "- " + str(i))
+        print(counter, "- " + str(i.nimi))
 
 def remove_student():
     print("Praegu on klassis järgnevad õpilased:")
